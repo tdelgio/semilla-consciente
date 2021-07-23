@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+@tailwind base;
+@layer base {
+  body {
+    @apply text-base tracking-wider;
+  }
+  a {
+    text-decoration: none;
+  }
+}
+@tailwind components;
+@tailwind utilities;
+@layer utilities {
+  .strong {
+    @apply text-base;
+  }
+  .small {
+    @apply text-sm;
+  }
+  .button {
+    @apply text-center text-sm tracking-wider shadow-md rounded-md;
+  }
+  .small-button {
+    @apply text-xs tracking-tight;
+  }
+  .link {
+    @apply text-base tracking-wider;
+  }
+  .active {
+    @apply text-white border hover:border-red-200;
+  }
+}
