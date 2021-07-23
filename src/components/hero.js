@@ -73,9 +73,12 @@ const Hero = () => {
           </div>
           <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
             <StaticImage
+              width={1731}
+              height={2597}
+              placeholder="blurred"
               className="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"
               src="../images/hero.png"
-              alt=""
+              alt="cordon del cerro Chalten"
             />
           </div>
         </div>

@@ -38,9 +38,12 @@ const About = () => {
           <div>
             <div className="relative z-10 my-8 bg-white sm:pb-16 md:pb-0 md:max-w-full lg:max-w-2xl xl:max-w-3xl 2xl:max-w-4xl lg:w-full lg:pb-0 xl:pb-0">
               <StaticImage
+                width={735}
+                height={478}
                 className="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:max-h-full"
                 src="../images/about.png"
-                alt=""
+                placeholder="blurred"
+                alt="town image"
               />
             </div>
           </div>
