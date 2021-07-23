@@ -8,12 +8,14 @@ import Navbar from "../components/navbar"
 import Hero from "../components/hero"
 import About from "../components/about"
 import Mision from "../components/mision"
+import Fundaments from "../components/fundaments"
 
 const IndexPage = () => (
   <Layout>
     <Hero />
     <About />
     <Mision />
+    <Fundaments />
   </Layout>
 )
 
