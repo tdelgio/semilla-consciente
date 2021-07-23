@@ -24,8 +24,9 @@ const Navbar = () => {
                 <StaticImage
                   height={40}
                   width={41}
+                  placeholder="tracedSVG"
                   src="../images/logo.png"
-                  alt=""
+                  alt="logo"
                 />
               </a>
               <div className="-mr-2 flex items-center md:hidden">
@@ -111,8 +112,9 @@ const Navbar = () => {
               <StaticImage
                 height={40}
                 width={41}
+                placeholder="tracedSVG"
                 src="../images/logo.png"
-                alt=""
+                alt="logo"
               />
             </div>
             <div className="-mr-2">
