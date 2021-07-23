@@ -8,4 +8,4 @@ const Fundaments = () => {
   );
 };
 
-export default Fundaments;
+export default Fundaments; 

@@ -13,6 +13,7 @@ module.exports = {
         "branch-brown": "#765A2F",
         misk: "#A0937D",
         vanilla: "#F2EDD7",
+        "chilli-pepper": "#A21631"
       },
     },
   },
