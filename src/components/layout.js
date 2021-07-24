@@ -26,10 +26,8 @@ const Layout = ({ children }) => {
     <>
       <div>
         <main>{children}</main>
-        <footer className="hidden">
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.com">Gatsby</a>
+        <footer className="text-center">
+          © {new Date().getFullYear()}, Semilla Consciente
         </footer>
       </div>
     </>
