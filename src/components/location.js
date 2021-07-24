@@ -5,11 +5,7 @@ import { IconMountain } from "./icons"
 
 const Location = () => {
   return (
-<<<<<<< HEAD
     <div id="location" className="border border-transparent">
-=======
-    <>
->>>>>>> a0c718a5c41d53a7a1d2d2b96b3dab1b094983e9
       <div className="max-w-8xl mx-auto lg:flex lg:flex-row lg:items-center xl:my-28">
         <div className="mx-auto  my-8 lg:w-1/2 lg:my-0 lg:hidden ">
           <StaticImage
@@ -34,11 +30,7 @@ const Location = () => {
 
           </div>
         </main>
-<<<<<<< HEAD
         <div className="mx-auto  my-8 lg:w-1/2 lg:my-0 hidden lg:block lg:shadow-lg">
-=======
-        <div className="mx-auto  my-8 lg:w-1/2 lg:my-0 hidden lg:block ">
->>>>>>> a0c718a5c41d53a7a1d2d2b96b3dab1b094983e9
           <StaticImage
             width={579}
             height={552}
@@ -49,11 +41,7 @@ const Location = () => {
           />
         </div>
       </div>
-<<<<<<< HEAD
     </div>
-=======
-    </>
->>>>>>> a0c718a5c41d53a7a1d2d2b96b3dab1b094983e9
   )
 }
 
