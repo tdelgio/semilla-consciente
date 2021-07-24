@@ -4,7 +4,7 @@ import { IconPlant } from "./icons"
 const MisionWidget = (props) => {
   return (
     <>
-      <div className="mt-2 sm:ml-2 mb-2 max-w-xl lg:ml-16 lg:mr-4 flex">
+      <div className="mt-2 mr-2 sm:ml-2 mb-2 max-w-xl lg:ml-16 lg:mr-4 flex">
         <IconPlant />
         <div className="ml-3 flex flex-col items-start">
           <h5 className="font-semibold leading-6 tracking-wide sm:font-normal pb-1">{props.title}</h5>
@@ -60,7 +60,9 @@ export const Mision = () => {
         <div className="max-w-screen lg:hidden  ml-3 mr-1 sm:text-center">
           <div className="space-y-2">
             <p className="text-blue-lagoon strong sm:text-lg md:text-xl 2xl:text-2xl ">¿Cuál es nuestra misión?</p>
-            <h3>Objetivos.</h3>
+            <h2 className="mt-2 text-gray-900">
+              <span className="block xl:inline">Objetivos.</span>
+            </h2>
             <p className="text-winter-gray py-2">Te invitamos a que nos conozcas y te sumes a nuestro proyecto!</p>
           </div>
 
