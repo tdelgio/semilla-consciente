@@ -3,13 +3,13 @@ import { StaticImage } from "gatsby-plugin-image"
 
 const About = () => {
   return (
-    <>
-      <div className="max-w-8xl mx-auto lg:flex lg:flex-row-reverse lg:items-center xl:my-28">
+    <div id="about" className="border border-transparent">
+      <div className="max-w-8xl mx-auto lg:flex lg:flex-row-reverse lg:items-center xl:my-32">
         <main className="my-10 max-w-8xl px-4 sm:my-12 sm:px-6  md:w-screen lg:w-1/2 lg:ml-14 lg:px-8 2xl:ml-28 ">
           <div className="sm:text-center lg:text-left lg:my-8">
-            <h4 className="strong text-blue-lagoon">
+            <p className="strong text-blue-lagoon sm:text-lg md:text-xl 2xl:text-2xl ">
               Quienes somos.
-            </h4>
+            </p>
             <h2 className="mt-2 text-gray-900">
               <span className="block xl:inline">La Cooperativa.</span>
             </h2>
@@ -36,11 +36,11 @@ const About = () => {
 
         <div className="my-8 lg:w-1/2">
           <div>
-            <div className="relative z-10 my-8 bg-white sm:pb-16 md:pb-0 md:max-w-full lg:max-w-2xl xl:max-w-3xl 2xl:max-w-4xl lg:w-full lg:pb-0 xl:pb-0">
+            <div className="relative z-10 my-8 bg-white sm:pb-16 md:pb-0 md:max-w-full lg:max-w-2xl xl:max-w-3xl 2xl:max-w-4xl lg:w-full lg:pb-0 xl:pb-0 lg:shadow-lg">
               <StaticImage
                 width={735}
                 height={478}
-                className="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:max-h-full"
+                className="h-72 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:max-h-full"
                 src="../images/about.png"
                 placeholder="blurred"
                 alt="town image"
@@ -49,7 +49,7 @@ const About = () => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   )
 }
 

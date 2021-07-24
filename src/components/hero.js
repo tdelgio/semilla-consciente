@@ -1,5 +1,6 @@
 import React from "react"
 import { StaticImage } from "gatsby-plugin-image"
+import scrollTo from "gatsby-plugin-smoothscroll"
 
 import Navbar from "./navbar"
 import {
@@ -51,17 +52,17 @@ const Hero = () => {
                   </p>
                   <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                     <div className="rounded-md shadow">
-                      <a
-                        href="#"
-                        className="font-semibold w-full flex items-center justify-center px-8 py-3 border border-transparent rounded-md text-white bg-blue-lagoon  md:py-4 md:text-lg md:px-10"
+                      <button
+                        onClick={() => scrollTo("#about")}
+                        className="font-semibold tracking-wider w-full flex items-center justify-center px-8 py-3 border border-transparent rounded-md text-white bg-blue-lagoon  md:py-4 md:text-lg md:px-10"
                       >
                         La Cooperativa
-                      </a>
+                      </button>
                     </div>
                     <div className="mt-3 sm:mt-0 sm:ml-3">
                       <a
                         href="#"
-                        className="font-semibold  w-full flex items-center justify-center px-8 py-3 border border-transparent rounded-md text-blue-lagoon bg-white md:py-4 md:text-lg md:px-10 shadow-md"
+                        className="font-semibold tracking-wider w-full flex items-center justify-center px-8 py-3 border border-transparent rounded-md text-blue-lagoon bg-white md:py-4 md:text-lg md:px-10 shadow-md"
                       >
                         Asociate
                       </a>
@@ -72,14 +73,27 @@ const Hero = () => {
             </div>
           </div>
           <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
-            <StaticImage
-              width={1731}
-              height={2597}
-              placeholder="blurred"
-              className="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"
-              src="../images/hero.png"
-              alt="cordon del cerro Chalten"
-            />
+            <span className="hidden lg:block">
+              <StaticImage
+                width={1731}
+                height={2597}
+                placeholder="blurred"
+                className=" h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"
+                src="../images/hero.png"
+                alt="cordon del cerro Chalten"
+              />
+            </span>
+            <span className="lg:hidden">
+              <StaticImage
+                width={376}
+                height={224}
+                placeholder="blurred"
+                className="h-56 w-full object-cover sm:h-72 md:h-96"
+                src="../images/heroMobile.png"
+                alt="cordon del cerro Chalten"
+              />
+            </span>
+
           </div>
         </div>
       </div>
