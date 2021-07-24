@@ -24,8 +24,10 @@ const About = () => {
             <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
               <div className="rounded-md shadow">
                 <a
-                  href="#"
+                  href="https://www.patreon.com/c/communities"
                   className="font-semibold w-full flex items-center justify-center px-8 py-3 border border-transparent text-base  rounded-md text-white bg-blue-lagoon  md:py-4 md:text-lg md:px-10"
+                  target="_blank"
+                  rel="noreferrer"
                 >
                   Asociate
                 </a>

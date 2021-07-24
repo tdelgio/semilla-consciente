@@ -3,13 +3,6 @@ import { StaticImage } from "gatsby-plugin-image"
 import scrollTo from "gatsby-plugin-smoothscroll"
 
 import Navbar from "./navbar"
-import {
-  IconCoop,
-  IconFundamentos,
-  IconObjetivos,
-  IconUbicacion,
-  IconContacto,
-} from "./icons"
 
 const Hero = () => {
   return (
@@ -61,7 +54,9 @@ const Hero = () => {
                     </div>
                     <div className="mt-3 sm:mt-0 sm:ml-3">
                       <a
-                        href="#"
+                        href="https://www.patreon.com/c/communities"
+                        target="_blank"
+                        rel="noreferrer"
                         className="font-semibold tracking-wider w-full flex items-center justify-center px-8 py-3 border border-transparent rounded-md text-blue-lagoon bg-white md:py-4 md:text-lg md:px-10 shadow-md"
                       >
                         Asociate

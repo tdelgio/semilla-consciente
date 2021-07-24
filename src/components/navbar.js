@@ -21,7 +21,7 @@ const Navbar = () => {
         >
           <div className="flex items-center flex-grow flex-shrink-0 lg:flex-grow-0">
             <div className="flex items-center justify-between w-full md:w-auto">
-              <a href="#">
+              <a href="/">
                 <span className="sr-only">Semilla Consciente</span>
                 <StaticImage
                   height={40}
@@ -108,7 +108,7 @@ const Navbar = () => {
                     From: "opacity-100 scale-100"
                     To: "opacity-0 scale-95"
                 --> */}
-      <span onClick={() => setToggle("hidden")} className={isToggle}>
+      <div tabIndex={0} role="button" onClick={() => setToggle("hidden")} className={isToggle}>
         <div className="absolute top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden backdrop-filter backdrop-blur-sm min-h-screen">
           <div className="rounded-lg shadow-md bg-white ring-1 ring-black ring-opacity-5 overflow-hidden">
             <div className="px-5 pt-4 flex items-center justify-between">
@@ -147,7 +147,7 @@ const Navbar = () => {
                 </button>
               </div>
             </div>
-            <div onClick={() => setToggle("hidden")} className="px-2 pt-2 pb-3 space-y-1">
+            <div tabIndex={0} role="button" onClick={() => setToggle("hidden")} className="px-2 pt-2 pb-3 space-y-1">
               <button
                 onClick={() => scrollTo("#about")}
                 className="w-full flex items-center text-winter-gray hover:text-white hover:bg-blue-lagoon px-3 py-2 rounded-md text-base"
@@ -167,7 +167,6 @@ const Navbar = () => {
 
               <button
                 onClick={() => scrollTo("#fundaments")}
-                href="#fundaments"
                 className="w-full flex items-center text-winter-gray hover:text-white hover:bg-blue-lagoon px-3 py-2 rounded-md text-base"
               >
                 <IconObjetivos />
@@ -191,7 +190,7 @@ const Navbar = () => {
             </div>
           </div>
         </div>
-      </span>
+      </div>
     </>
   )
 }
