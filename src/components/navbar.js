@@ -78,7 +78,7 @@ const Navbar = () => {
               onClick={() => scrollTo('#fundamentals')}
               className=" text-winter-gray transform hover:scale-105 hover:text-blue-lagoon"
             >
-              Fundamento
+              Fundamentos
             </button>
 
             <button
@@ -166,7 +166,7 @@ const Navbar = () => {
             </button>
 
               <button
-                onClick={() => scrollTo("#fundaments")}
+                onClick={() => scrollTo("#fundamentals")}
                 className="w-full flex items-center text-winter-gray hover:text-white hover:bg-blue-lagoon px-3 py-2 rounded-md text-base"
               >
                 <IconObjetivos />

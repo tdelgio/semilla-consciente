@@ -3,7 +3,7 @@ import { StaticImage } from "gatsby-plugin-image"
 
 const Fundaments = () => {
   return (
-    <div id id="fundamentals" className="border border-transparent">
+    <div id="fundamentals" className="border border-transparent">
       <div className="max-w-6xl py-10 mx-auto">
         <div className="w-full h-full flex justify-center lg:hidden -mb-32">
           <StaticImage
