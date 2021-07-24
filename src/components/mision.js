@@ -4,10 +4,10 @@ import { IconPlant } from "./icons"
 const MisionWidget = (props) => {
   return (
     <>
-      <div className="mt-2 mr-2 sm:ml-2 mb-2 max-w-xl lg:ml-16 lg:mr-4 flex">
+      <div className="mt-2 mr-2 sm:ml-2 mb-2 max-w-xl md:max-w-2xl lg:ml-16 lg:mr-4 flex">
         <IconPlant />
         <div className="ml-3 flex flex-col items-start">
-          <h5 className="font-semibold leading-6 tracking-wide sm:font-normal pb-1">{props.title}</h5>
+          <p className="text-lg lg:text-xl font-semibold leading-6 tracking-wide sm:font-normal pb-1">{props.title}</p>
           <p className="flex-shrink-1 text-justify text-light tracking-wide text-winter-gray">{props.text}</p>
         </div>
       </div>
