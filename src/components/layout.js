@@ -16,7 +16,11 @@ const Layout = ({ children }) => {
     <>
       <div>
         <main>{children}</main>
+<<<<<<< HEAD
         <footer className="ml-3 text-winter-gray">
+=======
+        <footer className="text-center">
+>>>>>>> a0c718a5c41d53a7a1d2d2b96b3dab1b094983e9
           © {new Date().getFullYear()}, Semilla Consciente
         </footer>
       </div>

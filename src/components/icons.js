@@ -95,6 +95,7 @@ export const IconMountain = () => {
     </>
   )
 }
+<<<<<<< HEAD
 export const IconMail = () => {
   return (
     <>
@@ -105,6 +106,8 @@ export const IconMail = () => {
     </>
   )
 }
+=======
+>>>>>>> a0c718a5c41d53a7a1d2d2b96b3dab1b094983e9
 export const IconContacto = () => {
   return (
     <>
