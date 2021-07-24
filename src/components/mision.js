@@ -57,7 +57,7 @@ export const Mision = () => {
 
         <div className="max-w-screen lg:hidden  ml-3 mr-1 sm:text-center">
           <div className="space-y-2">
-            <h4 className="text-blue-lagoon strong">¿Cuál es nuestra misión?</h4>
+            <p className="text-blue-lagoon strong sm:text-lg md:text-xl 2xl:text-2xl ">¿Cuál es nuestra misión?</p>
             <h3>Objetivos.</h3>
             <p className="text-winter-gray py-2">Te invitamos a que nos conozcas y te sumes a nuestro proyecto!</p>
           </div>
