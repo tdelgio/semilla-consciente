@@ -128,3 +128,18 @@ export const IconContacto = () => {
   )
 }
 
+export const IconPlant = () => {
+  return (
+    <>
+      <svg className="flex-shrink-0" width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect width="48" height="48" rx="6" fill="#34526A" />
+        <path d="M19 27H29V31C29 31.5304 28.7893 32.0391 28.4142 32.4142C28.0391 32.7893 27.5304 33 27 33H21C20.4696 33 19.9609 32.7893 19.5858 32.4142C19.2107 32.0391 19 31.5304 19 31V27Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        <path d="M24 21C24 19.4087 23.3679 17.8826 22.2426 16.7574C21.1174 15.6321 19.5913 15 18 15H15V17C15 18.5913 15.6321 20.1174 16.7574 21.2426C17.8826 22.3679 19.4087 23 21 23H24" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        <path d="M24 23C24 21.4087 24.6321 19.8826 25.7574 18.7574C26.8826 17.6321 28.4087 17 30 17H33V18C33 19.5913 32.3679 21.1174 31.2426 22.2426C30.1174 23.3679 28.5913 24 27 24H24" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        <path d="M24 27V21" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+      </svg>
+
+    </>
+  )
+}
+

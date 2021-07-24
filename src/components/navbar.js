@@ -14,14 +14,14 @@ const Navbar = () => {
   const [isToggle, setToggle] = useState("hidden")
   return (
     <>
-      <div className="pt-6 px-4 sm:px-6 lg:px-8 w-screen">
+      <div className="block pt-6 px-4 sm:px-6 lg:px-8 w-screen">
         <nav
-          className=" relative flex items-center justify-between sm:h-10 lg:justify-start"
+          className="relative flex items-center justify-between sm:h-10 lg:justify-start"
           aria-label="Global"
         >
           <div className="flex items-center flex-grow flex-shrink-0 lg:flex-grow-0">
             <div className="flex items-center justify-between w-full md:w-auto">
-              <a href="/">
+              <div href="/">
                 <span className="sr-only">Semilla Consciente</span>
                 <StaticImage
                   height={40}
@@ -30,7 +30,7 @@ const Navbar = () => {
                   src="../images/logo.png"
                   alt="logo"
                 />
-              </a>
+              </div>
               <div className="-mr-2 flex items-center md:hidden">
                 <button
                   onClick={() => setToggle("block bg-transparent")}

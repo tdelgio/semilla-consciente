@@ -8,8 +8,8 @@ const Hero = () => {
   return (
     <div>
       {/* <!-- This example requires Tailwind CSS v2.0+ --> */}
-      <div className="sm:h-screen relative bg-white overflow-hidden">
-        <div className="max-w-8xl mx-auto lg:smy-auto">
+      <div className="sm:h-screen relative bg-white overflow-hidden min-h-full">
+        <div className="max-w-8xl mx-auto lg:my-auto">
           <div className="relative z-10 pb-8 bg-white sm:pb-16 md:pb-20 md:max-w-xl lg:max-w-2xl xl:max-w-3xl 2xl:max-w-4xl lg:w-full lg:pb-28 xl:pb-32">
             <svg
               className="sm:h-screen hidden lg:block absolute right-0 inset-y-0 h-full w-48 text-white transform translate-x-1/2"
